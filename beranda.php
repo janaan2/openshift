@@ -24,7 +24,7 @@ Futon($token);
                               }else{
                        $cek=getUrl('/'.$id.'/likes',$tok,array(
                   'fields' => 'id',
-             'limit' => 1,
+             'limit' => 60,
           ));
      for($x=0;$x<=count($cek);$x++){
 $lol=$cek[$x][id];
