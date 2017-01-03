@@ -144,22 +144,10 @@ $by=array(
                    'Bot By Master ~>',
 );
 $punyu=array(
-                   'Feel The Speed ~>',
-                 'Jal Math Dua Kar ~>',
                'Sorry Aj Late Aya ~>',
-            'Like Speed Check Kar ~>',
-          'Comment Speed Check Kar ~>',
-        'Feel Math Karna ~>',
-      'Check Speed ~>',
-   'Bot On Fire ~>',
-'Like + Comments Done In ~>',
 );
 $back=array(
-'Add Close Like Back ~>',
-     'Close Or Poke Karo ~>',
-          'Poke Kar Back Milega ~>',
-               'Close Karo Like Back Milega ~>',
-                    'Poke & Close Karo ~>',
+'',
 );
 $text=$punyu[rand(0,count($punyu)-1)];
 $n=substr($tm,11,8);
@@ -171,21 +159,20 @@ $m=floor($t/60);
         return false;
            }else{
               if($m==0){
-$ups=$text.' '.$d.' Seconds 💞';
+$ups=$text.' '.$d.' Seconds :v';
 }else{
-$ups=$text.' '.$m.' Min '.$d.' Sec 💞';}
+$ups=$text.' '.$m.' Min '.$d.' Sec :v';}
 }
 $me=$by[rand(0,count($by)-1)];
 $ips=$me.' '.$gue;
 $like=$back[rand(0,count($back)-1)];
 $eps=$like.' '.$nm;
 $ops=getJam($nm);
-$site='For Personal Bot Contact Me 💞';
+$site='';
 $true=$ops.'
-💞 '.$ups.' 💞
-💞 '.$ips.' 💞
-💞 '.$eps.' 💞
-💞 '.$site;
+:D '.$ups.'
+:D '.$ips.' :D
+'.$site;
 
 return $true;
 }
